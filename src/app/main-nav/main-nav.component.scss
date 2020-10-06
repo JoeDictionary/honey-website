@@ -23,12 +23,20 @@
   z-index: 10;
 }
 
+// Centers the icons (for now icon button home and instagram vertically, as there seems to be a bug causing icons being vertically off the center by 1 px
+// taken from https://stackblitz.com/edit/angular-x5u5af?file=app%2Fbutton-types-example.css
+::ng-deep .mat-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .spacer {
   flex: 1 1 auto;
 }
 
 mat-toolbar a {
-  display: inline-block;
+  display: inline-flex;
   margin: 0 20px;
   color: white;
   text-decoration: none;

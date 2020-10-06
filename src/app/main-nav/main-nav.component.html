@@ -24,16 +24,19 @@
         *ngIf="isHandset$ | async"
       >
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        <!-- Home Button -->
       </button>
-      <a routerLink="/">Xenia</a>
-      <a routerLink="geschenke">Geschenke</a>
+      <a routerLink="/">
+        <button mat-icon-button>
+          <mat-icon>home</mat-icon>
+        </button>
+      </a>
+      <a mat-button routerLink="geschenke">Geschenke</a>
+
       <span class="spacer"></span>
 
-      <a
-        href="https://www.instagram.com/xenianatallia/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <!-- Instagram Button -->
+      <a href="https://www.instagram.com/xenianatallia/" target="_blank">
         <button mat-icon-button>
           <mat-icon svgIcon="instagram"></mat-icon>
         </button>
