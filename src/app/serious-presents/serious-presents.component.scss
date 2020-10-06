@@ -1,3 +1,25 @@
+section {
+  display: flex;
+  margin-top: 30px;
+}
+
+img {
+  border-radius: 10px;
+  // width: 100%;
+  // height: auto;
+}
+
+text {
+  flex: 1;
+  // display: block;
+}
+
 mat-divider {
   margin: 30px;
+}
+
+@media (max-width: 700px) {
+  section {
+    flex-direction: column;
+  }
 }
