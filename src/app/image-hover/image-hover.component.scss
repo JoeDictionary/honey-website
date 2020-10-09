@@ -6,6 +6,9 @@
 .image-container {
   position: relative;
   border-radius: inherit;
+
+  // TODO Figure out what doesnt break everything
+  display: inline-flex;
 }
 
 :host ::ng-deep img {
