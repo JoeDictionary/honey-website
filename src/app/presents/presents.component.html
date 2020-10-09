@@ -1,13 +1,18 @@
 <main>
-  <nav mat-tab-nav-bar>
-    <a
-      mat-tab-link
-      *ngFor="let tab of tabs"
-      (click)="showPresents(tab)"
-      [active]="activeLink == tab.title"
-    >
-      {{ tab.title }}
-    </a>
-  </nav>
-  <router-outlet></router-outlet>
+  <div class="tab">
+    <nav mat-tab-nav-bar>
+      <a
+        mat-tab-link
+        *ngFor="let tab of tabs"
+        (click)="showPresents(tab)"
+        [active]="activeLink == tab.title"
+      >
+        {{ tab.title }}
+      </a>
+    </nav>
+
+    <div class="tab-content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
 </main>

@@ -20,6 +20,8 @@ import { SeriousPresentsComponent } from './serious-presents/serious-presents.co
 import { FunPresentsComponent } from './fun-presents/fun-presents.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { ImageHoverComponent } from './image-hover/image-hover.component';
+import { PresentTypeComponent } from './present-type/present-type.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { FooterComponent } from './footer/footer.component';
     FunPresentsComponent,
     HomeComponent,
     FooterComponent,
+    ImageHoverComponent,
+    PresentTypeComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,17 +1,15 @@
 section {
   display: flex;
+  flex-direction: column;
   margin-top: 30px;
 }
 
-img {
+img,
+image-hover {
   border-radius: 10px;
-  // width: 100%;
+  // width: 90%;
   // height: auto;
-}
-
-text {
-  flex: 1;
-  // display: block;
+  outline: 2px solid red;
 }
 
 mat-divider {
