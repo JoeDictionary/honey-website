@@ -1,19 +1,16 @@
 .all-container {
-  position: relative;
+  // position: relative;
   border-radius: inherit;
 }
 
 .image-container {
   position: relative;
   border-radius: inherit;
-
-  // TODO Figure out what doesnt break everything
-  display: inline-flex;
 }
 
 :host ::ng-deep img {
   border-radius: inherit;
-  // display: block;
+  display: block;
 }
 
 .image-overlay {
