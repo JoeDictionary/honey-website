@@ -1,4 +1,14 @@
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+img,
+image-hover {
+  border-radius: 10px;
+}
+
 mat-divider {
   margin: 30px;
 }
-

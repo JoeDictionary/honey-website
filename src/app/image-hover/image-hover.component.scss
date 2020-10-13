@@ -1,16 +1,31 @@
 .all-container {
   // position: relative;
+  display: inline-block;
   border-radius: inherit;
 }
 
 .image-container {
   position: relative;
   border-radius: inherit;
+  // TODO
+  display: inline-block;
 }
+
+// https://stackoverflow.com/questions/41251107/css-image-overlay-not-working
 
 :host ::ng-deep img {
   border-radius: inherit;
-  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+  // TODO
+  // display: inline;
+
+  // Nedded
+  vertical-align: middle;
+}
+
+.overlay-container {
+  display: inline;
 }
 
 .image-overlay {
@@ -22,6 +37,8 @@
   text-align: center;
   top: 0;
   left: 0;
+  // right: 0;
+  // bottom: 0;
   width: 100%;
   height: 100%;
   border-radius: inherit;

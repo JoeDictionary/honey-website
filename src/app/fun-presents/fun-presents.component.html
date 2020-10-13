@@ -1,24 +1,37 @@
 <!-- ANIME RELATED SACHEN -->
 <section>
-  <h1>Anime Related Sachen</h1>
-  <p>
-    Du weißt was ein Weeb ich bin. Frag mich am besten direkt, was genau ich
-    möchte. Alternativ wird alles Hunter x Hunter related akzeptiert (duh).
-  </p>
-  <img src="assets/anime-related-sachen.jpg" alt="" />
-  <mat-divider></mat-divider>
-</section>
+  <present-type>
+    <div class="present-description">
+      <h1>Anime Related Sachen</h1>
+      <p>
+        Du weißt was ein Weeb ich bin. Frag mich am besten direkt, was genau ich
+        möchte. Alternativ wird alles Hunter x Hunter related akzeptiert (duh).
+      </p>
+    </div>
 
-<!-- AAMZON WISH LIST -->
-<section>
-  <h1>Amazon Wish List</h1>
-  <p>Dort findest du jeden Scheiß. Klick auf das Bild für mehr.</p>
-  <img src="assets/amazon-wishlist.jpg" alt="" />
-  <a
-    color="accent"
-    mat-raised-button
-    href="https://www.amazon.de/hz/wishlist/ls/35YJDVH0E5LR7?ref_=wl_share"
-    target="_blank"
-    >Wish List</a
-  >
+    <div class="present-image">
+      <img src="assets/anime-related-sachen.jpg" alt="" />
+    </div>
+  </present-type>
+
+  <mat-divider></mat-divider>
+
+  <!-- AAMZON WISH LIST -->
+  <present-type>
+    <div class="present-description">
+      <h1>Amazon Wish List</h1>
+      <p>Dort findest du jeden Scheiß. Klick auf das Bild für mehr.</p>
+    </div>
+
+    <a
+      class="present-image"
+      href="https://www.amazon.de/hz/wishlist/ls/35YJDVH0E5LR7?ref_=wl_share"
+      target="_blank"
+    >
+      <image-hover>
+        <img src="assets/amazon-wishlist.jpg" alt="" />
+        <h1>Zur Wishlist</h1>
+      </image-hover>
+    </a>
+  </present-type>
 </section>
